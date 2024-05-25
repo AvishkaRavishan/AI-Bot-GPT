@@ -8,7 +8,7 @@ model = AutoModelForQuestionAnswering.from_pretrained(model_name)
 tokenizer = AutoTokenizer.from_pretrained(model_name)
 
 # OpenAI API key
-openai.api_key = "YOUR_OPENAI_API_KEY"
+openai.api_key = "OPENAI_API_KEY"
 
 def make_predictions(context, question):
     try:
